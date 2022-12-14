@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    border-radius: 7px;
+    
+}
+.card-image{
+    width: 300px;
+    border-radius: 7px;
+    margin: 25px;
+}
+.container{
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+hr{
+    border: solid;
+    color: hsl(215, 32%, 27%);
+
+}
+p{
+    color:  hsl(215, 51%, 70%);
+    
+}
+h3{
+    color:  hsl(178, 100%, 50%);
+    display: inline;
+    text-align: left;
+}
+.card-footer{
+    padding-bottom:10px;
+}
+.clock{
+    display: inline;
+    text-align: right;
+    position: relative;
+    left: 80px;
+}
+span{
+    color: white;
+}
+.avatar-image{
+    width: 40px;
+}
+.x{
+    padding: 10px;
+}
+@media screen and (max-width: 375px) {
+    .card{
+        margin: 10px;
+    }
+    
+}
